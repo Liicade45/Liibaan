@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1> assignment chapter</h1>
+    <p>select a chapter to read</p>
+   <select id="chapterSelect" onchange="goToChapter()" >
+    <option value="">-- Select a chapter --</option>
+    <option value="chapter 6 assignment.html"> chapter 6 assignment</option>
+    <option value="chapter 7 assignment.html">chapter 7 assignment</option>
+    <option value="chapter 8 assignment .html">chapter 8 assignment</option>
+    <option value="chapter 9 assignment  copy.html">chapter 9 assignment</option>
+    <option value="chapter 10 assignment .html">chapter 10 assignment</option>
+</select>
+
+<script>
+function goToChapter() {
+    const select = document.getElementById('chapterSelect');
+    const page = select.value;
+    if (page) {
+        window.location.href = page;
+    }
+}
+</script>
+
+</body>
+</html>

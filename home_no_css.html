@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Website Navigation with Info</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      background-color: #333;
+    }
+
+    nav ul li {
+      display: inline-block;
+      position: relative;
+    }
+
+    nav ul li a {
+      display: block;
+      padding: 12px 20px;
+      color: white;
+      text-decoration: none;
+      background-color: #333;
+    }
+
+    nav ul li a:hover {
+      background-color: #555;
+    }
+
+    .submenu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #444;
+      min-width: 160px;
+      z-index: 1;
+    }
+
+    .submenu li {
+      display: block;
+    }
+
+    .submenu li a {
+      padding: 10px 20px;
+      background-color: #444;
+    }
+
+    .submenu li a:hover {
+      background-color: #666;
+    }
+
+    nav ul li:hover .submenu {
+      display: block;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .content h2 {
+      color: #333;
+    }
+
+    .content p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    .info-section {
+      background-color: #f4f4f4;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    .info-section h3 {
+      color: #222;
+    }
+    
+  </style>
+</head>
+<body>
+  <nav>
+  <ul>
+    <li><a href="home_no_css.html">Home</a></li>
+    <li><a href="about me.html">About Me</a></li>
+    <li><a href="about xaafada.html">About xaafada</a></li>
+    <li><a href="about jus.html">About jus</a></li>
+    <li><a href="contact.html">Contact </a></li>
+    <li>
+      <a href="#">More</a>
+      <ul class="submenu">
+        <li><a href="chapter 6 assignment.html">Chapter 6</a></li>
+        <li><a href="chapter 7 assignment.html">Chapter 7</a></li>
+        <li><a href="chapter 8 assignment .html">Chapter 8</a></li>
+        <li><a href="chapter 9 assignment  copy.html">Chapter 9</a></li>
+        <li><a href="chapter 10 assignment .html">Chapter 10</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<div class="content">
+  <h2>Welcome guys my Website</h2>
+  <p>This site provides detailed information about the author's background, hometown, and a variety of educational chapters useful for students and readers who want to explore more topics.</p>
+</div>
+
+<div class="info-section">
+  <h3>📘 About Contents</h3>
+  <p>Each chapter available under the "More" section gives you valuable lessons, discussions, and knowledge. Whether you're reading Chapter 6 or Chapter 10, you'll find useful information for learning and development.</p>
+
+  <h3>🌍 General Info</h3>
+  <p>This website is a personal and educational project designed to share ideas, experiences, and educational materials. It includes pages about the author, the local area of Guriel, and important contact information. The goal is to support learning and communication for all visitors.</p>
+</div>
+
+</body>
+</html>
+  
+    
